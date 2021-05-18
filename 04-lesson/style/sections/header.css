@@ -1,0 +1,50 @@
+.header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    display: inline-flex;
+}
+
+.logo img {
+    max-width: 100%;
+}
+
+.menu__list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.menu__item {
+    display: inline-flex;
+    padding: 35px;
+}
+
+.menu__link {
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 22px;
+    display: inline-flex;
+    text-decoration: none;
+    color: #fff;
+}
+
+.info__phone {
+    font-size: 26px;
+    font-weight: normal;
+    line-height: 35px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.info__schedule {
+    font-size: 13px;
+    font-weight: normal;
+    line-height: 1.54;
+    text-align: right;
+    color: #fff;
+    text-decoration-line: underline;
+}

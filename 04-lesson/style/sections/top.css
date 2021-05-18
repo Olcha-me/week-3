@@ -1,0 +1,36 @@
+.top-wrap {
+    background-image: url('../../img/bg-1.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.top {
+    padding: 117px 0 190px 0;
+}
+
+.top__title {
+    font-size: 60px;
+    font-weight: bold;
+    line-height: 1.07;
+    max-width: 637px;
+    margin-bottom: 21px;
+    color: #fff;
+}
+
+.top__subtitle {
+    font-size: 21px;
+    font-weight: normal;
+    line-height: 29px;
+    margin-bottom: 76px;
+    color: #fff;
+}
+
+.top__button {
+    border: 1px solid transparent;
+}
+
+.top__button:hover {
+    border-color: #fff;
+    background-color: transparent;
+}

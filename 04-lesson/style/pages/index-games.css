@@ -1,0 +1,160 @@
+.top-line {
+    display: flex;
+    flex-direction: column;
+    min-height: 390px;
+    padding-bottom: 25px;
+    background-image: url('../../img/bg-1.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.top-line__container {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.page-title {
+    font-size: 72px;
+    font-weight: bold;
+    line-height: 1;
+    color: #fff;
+}
+
+.breadcrumbs__list {
+    display: flex;
+    align-items: center;
+}
+
+.breadcrumbs__item {
+    display: flex;
+    align-items: center;
+    margin-right: 5px;
+}
+
+.breadcrumbs__item:after {
+    content: '/';
+    color: #9a9a9a;
+}
+
+.breadcrumbs__item:last-child:after {
+    display: none;
+}
+
+.breadcrumbs__link {
+    font-size: 14px;
+    color: #9a9a9a;
+}
+
+.breadcrumbs__item--active .breadcrumbs__link {
+    font-weight: bold;
+}
+
+.page-content {
+    color: #303030;
+    background-color: #f2f2f2;
+}
+
+.services {
+    margin: 0;
+    padding: 0;
+}
+
+.service {
+    display: flex;
+    margin-bottom: 50px;
+    list-style: none;
+}
+
+.service__img {
+    width: 40%;
+    margin-right: 5%;
+}
+
+.service__img-pic {
+    display: block;
+    max-width: 100%;
+}
+
+.service__content {
+    flex: 1;
+    padding-top: 10px;
+}
+
+.service__title {
+    font-size: 36px;
+    margin-bottom: 25px;
+    color: #000;
+}
+
+.service__desc {
+    line-height: 1.7;
+    margin-bottom: 34px;
+}
+
+.service-item__button {
+    padding-right: 40px;
+    padding-left: 40px;
+    letter-spacing: 0;
+    color: #8f00ff;
+    border: 1px solid #8f00ff;
+    background-color: transparent;
+}
+
+.service-item__button:hover {
+    color: #fff;
+    background-color: #8f00ff;
+}
+
+.inner-section {
+    padding: 95px 0;
+    color: #1a1b1e;
+    background: #fff;
+}
+
+.inner-section--grey {
+    background: #f4f5f5;
+}
+
+.inner-section__title {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 75px;
+}
+
+.partners {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.partners__item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 270px;
+    height: 100px;
+    text-decoration: none;
+}
+
+.services__pagination {
+    padding-top: 17px;
+}
+
+.services__pagination .pagination__number,
+.services__pagination .pagination__info,
+.services__pagination .pagination__info-index,
+.services__pagination .pagination__info-count {
+    color: #000;
+}
+
+.services__pagination .pagination__number.active {
+    color: #fff;
+}
+
+.partners__link img {
+    display: block;
+    max-width: 100%;
+}
