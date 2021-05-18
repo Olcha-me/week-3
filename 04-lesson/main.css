@@ -26,7 +26,7 @@ body{
     align-items: center;
     text-transform: uppercase;
     display: inline-flex;
-    justify-content: ;
+    justify-content: center;
     padding: 17px 40px;;
     background-color: #8F00FF;
     border-radius: 5px;
@@ -273,6 +273,11 @@ color: #FFFFFF;
     color: #fff;
 }
 .pagination__info-count,
+.pagination__info-index {
+    padding-left: 3px;
+    padding-right: 3px;
+}
+.pagination__info-count,
 .pagination__number{
     color: #fff;
 }
@@ -411,6 +416,7 @@ color: #9A9A9A;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    width: 100%;
     }
 
     .page-title{
@@ -448,3 +454,99 @@ color: #FFFFFF;
     .breadcrumbs__item--active .breadcrumbs__link {
         font-weight: bold;
     }
+
+    .page-content{
+        background-color: #F2F2F2;
+        color: #303030;
+    }
+
+    .services{
+        margin: 0;
+        padding: 0;
+    }
+    .service{
+        list-style: none;
+        display: flex;
+        margin-bottom: 50px;
+    }
+    .service__img{
+    width: 40%;
+    margin-right: 5%;
+    }
+    .service__img-pic{
+        display: block;
+        max-width: 100%;
+    }
+
+    .service__content{
+        flex: 1;
+        padding-top: 10px;
+    }
+
+    .service__title{
+        margin-bottom: 25px;
+        font-size: 36px;
+        color: #000000;
+    }
+
+    .service__desc{
+        line-height: 1.7;
+        margin-bottom: 34px;
+    }
+
+    .service-item__button{
+        padding-left: 40px;
+        padding-right: 40px;
+        color: #8F00FF;
+        letter-spacing: 0;
+        background-color: transparent;
+        border: 1px solid #8F00FF;
+    }
+
+    .service-item__button:hover{
+        background-color: #8F00FF;
+        color: #fff;
+    }
+.inner-section{
+    background: #fff;
+    color: #1A1B1E;
+    padding: 95px 0;
+}
+.inner-section--grey{
+    background: #F4F5F5;
+}
+
+.inner-section__title{
+font-weight: bold;
+font-size: 48px;
+margin-bottom: 75px;
+}
+.partners{
+    display: flex;
+    flex-wrap: wrap;
+}
+.partners__item{
+    text-decoration: none;
+    display: flex;
+    width: 270px;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+}
+
+.services__pagination {
+    padding-top: 17px;
+}
+.services__pagination .pagination__number,
+.services__pagination .pagination__info,
+.services__pagination .pagination__info-index,
+.services__pagination .pagination__info-count{
+    color: #000;
+}
+.services__pagination .pagination__number.active {
+    color: #fff;
+}
+.partners__link img{
+    display: block;
+    max-width: 100%;
+}
