@@ -6,6 +6,14 @@
     padding-bottom: 35px;
 }
 
+.footer__menu{
+    margin-left: 54px;
+}
+
+.footer__social{
+    margin-left: 48px;
+}
+
 .social {
     display: flex;
     margin: 0;
@@ -25,6 +33,10 @@
 
 .social__item:last-child {
     margin-right: 0;
+}
+
+.info{
+    text-align: right;
 }
 
 .info__text {

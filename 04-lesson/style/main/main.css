@@ -21,8 +21,12 @@ body {
     background-color: #000;
 }
 
+.main__wrapper{
+    background: url(img/bg-1.png) top center no-repeat, url(img/bg-2.png) bottom center no-repeat, #000;
+}
 .main {
     flex-grow: 1;
+    backdrop-filter: grayscale(100%);
 }
 
 .button {

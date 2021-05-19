@@ -2,6 +2,11 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding-top: 22px;
+}
+
+.main__header{
+    margin-bottom: 133px;
 }
 
 .logo {
@@ -12,15 +17,21 @@
     max-width: 100%;
 }
 
+.header__menu{
+    margin-left: 33px;
+}
 .menu__list {
     margin: 0;
     padding: 0;
     list-style: none;
+    display: flex;
 }
 
 .menu__item {
-    display: inline-flex;
-    padding: 35px;
+    margin-right: 67px;
+}
+.menu__item:last-child{
+    margin-right: 0;
 }
 
 .menu__link {

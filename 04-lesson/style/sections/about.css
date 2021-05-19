@@ -1,7 +1,7 @@
-.about .container {
+.about__container {
     display: flex;
     align-items: center;
-    padding-top: 118px;
+    padding-top: 19px;
     padding-bottom: 118px;
 }
 

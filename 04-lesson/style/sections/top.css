@@ -5,8 +5,8 @@
     background-size: cover;
 }
 
-.top {
-    padding: 117px 0 190px 0;
+.top{
+    margin-bottom: 189px;
 }
 
 .top__title {
@@ -16,6 +16,7 @@
     max-width: 637px;
     margin-bottom: 21px;
     color: #fff;
+    margin-top:0;
 }
 
 .top__subtitle {
